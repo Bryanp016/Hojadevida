@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  header{
+      width: auto;
+      height: 100px;
+      background: rgb(5, 141, 237);
+      display: flex;
+  }
+  .titulo {
+    width: auto;
+    height: 100px;
+    background: rgb(7, 182, 191);
+    margin: auto;
+    margin-left: 10%;
+    cursor: pointer;
+  }
+  .titulo p{
+      color: rgb(18, 19, 19);
+      text-decoration: none;
+      text-align: center;
+      margin-top: 10%;
+      font-size: 30px;
+      font-family:sans-serif
+  }
+  .datos-personales{
+    width: 100%;
+    display: inline-flex;
+    margin-right: 40px;
+    margin-left: 40px;
+    cursor: pointer;
+   
+  }
+  h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+   h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+  }
+  .portada{
+    
+    padding-top: 50px;
+    display: flex;
+    width: 30%;
+  }
+  .datos{
+    display: inline-flexbox;
+    padding-top: 10px;
+    width: 50%;
+    border: 3px solid;
+    padding-right: 2%;
+    float: right;
+    padding-inline-start: 108px;
+    margin-top: 50px;
+    
+  }
+  .datos:hover{
+    background-color: rgb(27, 131, 223);
+    cursor: pointer;
+    color: rgb(14, 12, 12);
+    border: 5px, solid;
+  }
+  .datos p{
+    padding-top: 10px;
+  }
+  body {
+    width: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: url(imagenes/fondo.jpg);
+  }
+  .container{
+    height: auto;
+    background-color: rgba(236, 236, 236, 0.747);
+  }
+  .estudios{
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-block-end: 40px;
+    border: 3px solid;
+    margin-top: 25px;
+    
+  }
+  .estudios:hover{
+    background-color: rgb(8, 165, 217);
+    cursor: pointer;
+    color: rgb(14, 15, 14);
+    border: 5px, solid;
+  }
+  .estudios p{
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+  .estudios h1{
+    margin-left: 20px;
+  }
+  .experiencia{
+    
+    margin-left: 40px;
+    margin-right: 40px;
+    display: inline-flex;
+    
+  }
+ 
+  .capacitaciones{
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-block-end: 40px;
+    border: 3px solid;
+    margin-top: 25px;
+  }
+  .capacitaciones:hover{
+    background-color: rgb(24, 188, 213);
+    cursor: pointer;
+    color: springgreen;
+    border: 5px, solid;
+  }
+  .capacitaciones p{
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+  .capacitaciones h1{
+    margin-left: 20px;
+  }
+  
+  .grid-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+    padding-block-end: 20px;
+    display: grid;
+    grid-template-rows: auto [Line1] auto [Line2] auto [Line3] auto [Line4];
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0%;
+    border: 3px solid;
+    margin-top: 25px;
+
+  }
+  
+  .grid-item1 {
+   /* background: blue;*/
+    text-align: center;
+    
+   /*border: black 5px solid;*/
+    grid-column: 1 / span 6;
+    grid-row: 1 / Line1; 
+  }
+  
+  .grid-container .grid-item2 {
+    /*background: grey;*/
+    text-align: center;
+   /* border: rgb(28, 224, 21) 2px solid;*/
+   background-color: rgba(8, 109, 223, 0.055);
+    color: black;
+    padding-top: 10px;
+    padding-block-end: 10px;
+  }
+  .grid-container .grid-item2:hover {
+    /*background: grey;*/
+    background-color: rgb(20, 132, 230);
+    cursor: pointer;
+    color: springgreen;
+    border: 5px, solid;
+  }
+  .grid-container p{
+    padding-top: 10px;
+  }
+  .grid-container .grid-item3 {
+    /*background: grey;*/
+    text-align: left;
+    /*border: rgb(28, 224, 21) 2px solid;*/
+    background-color: rgba(23, 179, 236, 0.055);
+    color: rgb(24, 205, 202);
+    padding-top: 10px;
+    padding-block-end: 10px;
+    margin-left: 20px;
+  }
+  .grid-container .grid-item3:hover{
+    background-color: rgb(28, 204, 221);
+    cursor: pointer;
+    color: springgreen;
+    border: 5px, solid;
+    /*border-color: springgreen;*/
+    
+    
+  }
+  
